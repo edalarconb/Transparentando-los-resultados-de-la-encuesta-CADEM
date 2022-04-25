@@ -9,7 +9,6 @@ pc0.s1=1-pc1.s1 ## tasa de respuesta
 ps1.e1=llamados/elegibles ## prob. de ser seleccionado para contestar encuesta
 ps0.e1=1-ps1.e1
 
-ps1.e1*100
 ## NIVEL 1: OPINIÓN DE LOS ENCUESTADOS
 opinion=function(x){
   op=round(x/n,2)
