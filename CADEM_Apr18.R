@@ -11,7 +11,7 @@ ps0.e1=1-ps1.e1
 
 ps1.e1*100
 ## NIVEL 1: OPINIÓN DE LOS ENCUESTADOS
-op=function(x){
+opinion=function(x){
   op=round(x/n,2)
   return(op)
 }
