@@ -1,7 +1,7 @@
 options(scipen=999)
 ## Ingrese los valores entregados por CADEM
 n=705 ## nro de encuestados
-llamados=5918 ## nro de llamadas hasta lograr 704 seleccionados que contestan la encuesta
+llamados=5918 ## nro de llamadas hasta lograr 705 seleccionados que contestan la encuesta
 elegibles=13314848 ## nro de elegibles declarados en CADEM
 
 pc1.s1=round(n/llamados,3) ## tasa de respuesta
